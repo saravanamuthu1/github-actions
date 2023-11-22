@@ -9,4 +9,4 @@ jobs:
       - name: My first step - check out repository
         uses: actions/checkout@v4
       # This step references the directory that contains the action.
-      - run: echo "my name is saravana"
+      - run: echo "Name of the repository ${{github.repository}}"
