@@ -5,6 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print_good_morning
-      - run: echo "hello world"
-  
+        run: echo "hello world"
   
